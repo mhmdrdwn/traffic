@@ -1,2 +1,2 @@
-# stravarides
-My cycling rides at strava
+# Traffic Forcasting
+Using Different GNN models for traffic forcating
