@@ -1,11 +1,11 @@
 # Traffic Forcasting
 Using Different GNN models for traffic forcating
 
-[TGCN](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/tgcn-seoul-dataset.ipynb)
+[Temporal Graph convolutional Network (TGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/tgcn-seoul-dataset.ipynb)
 
-[A3TGCN](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/a3tgcn-seoul-data.ipynb)
+[Attention Temporal Graph Convolutional Network (A3TGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/a3tgcn-seoul-data.ipynb)
 
-[STGCN](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/stgcn-using-seoul-data.ipynb)
+[Temporal Graph convolutional Network (STGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/stgcn-using-seoul-data.ipynb)
 
 
 ## Results
