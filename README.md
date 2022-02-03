@@ -5,7 +5,7 @@ Using Different GNN models for traffic forcating
 
 [Attention Temporal Graph Convolutional Network (A3TGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/a3tgcn-seoul-data.ipynb)
 
-[Temporal Graph convolutional Network (STGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/stgcn-using-seoul-data.ipynb)
+[Spatiotemporal Graph convolutional Network (STGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/stgcn-using-seoul-data.ipynb)
 
 
 ## Results
