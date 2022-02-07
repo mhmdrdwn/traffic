@@ -11,11 +11,11 @@ REFERENCE: Shin, Y., & Yoon, Y. (2020). Incorporating dynamicity of transportati
 
 ## Methods
 
-[Temporal Graph convolutional Network (TGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/tgcn-seoul-dataset.ipynb)
+[Temporal Graph convolutional Network (TGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/tgcn.ipynb)
 
-[Attention Temporal Graph Convolutional Network (A3TGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/a3tgcn-seoul-data.ipynb)
+[Attention Temporal Graph Convolutional Network (A3TGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/a3tgcn.ipynb)
 
-[Spatiotemporal Graph convolutional Network (STGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/stgcn-using-seoul-data.ipynb)
+[Spatiotemporal Graph convolutional Network (STGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/stgcn.ipynb)
 
 [Diffusion Convolutional Graph Neural Network (DCRNN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/dcrnn.ipynb)
 
