@@ -17,7 +17,7 @@ REFERENCE: Shin, Y., & Yoon, Y. (2020). Incorporating dynamicity of transportati
 
 [Spatiotemporal Graph convolutional Network (STGCN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/stgcn.ipynb)
 
-[Diffusion Convolutional Graph Neural Network (DCRNN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/dcrnn.ipynb)
+[Diffusion Convolutional Recurrent Neural Network (DCRNN)](https://github.com/mhmdrdwn/traffic/blob/main/notebooks/dcrnn.ipynb)
 
 
 ## Results
@@ -26,6 +26,6 @@ REFERENCE: Shin, Y., & Yoon, Y. (2020). Incorporating dynamicity of transportati
 | ------------- |:------:|:------:|:------:|
 | TGCN          |  1.74  |  4.33  |  3.67% |
 | A3TGCN        |  2.45  |  7.97  |  5.32% |
-| STGCN         |        |        |        |
+| STGCN         |  1.92  |  5.01  |  3.89% |
 | DCRNN         |  1.97  |  5.15  |  4.45% |
 
