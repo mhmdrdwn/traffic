@@ -1,5 +1,5 @@
 # Traffic Forcasting
-Using Different GNN models for traffic forcating
+Using Different GNN models for traffic forcasting
 
 ## Data
 
