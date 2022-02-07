@@ -24,7 +24,7 @@ REFERENCE: Shin, Y., & Yoon, Y. (2020). Incorporating dynamicity of transportati
 
 | Model         | MAE    | RMSE   | MAPE   |
 | ------------- |:------:|:------:|:------:|
-| TGCN          |  1.74  |  4.33  |  3.67% |
+| TGCN          |  2.96  |  4.31  | 12.92% |
 | A3TGCN        |  2.45  |  7.97  |  5.32% |
 | STGCN         |  1.92  |  5.01  |  3.89% |
 | DCRNN         |  1.97  |  5.15  |  4.45% |
