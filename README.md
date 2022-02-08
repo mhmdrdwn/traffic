@@ -27,5 +27,5 @@ REFERENCE: Shin, Y., & Yoon, Y. (2020). Incorporating dynamicity of transportati
 | TGCN          |  2.96  |  4.31  | 12.92% |
 | A3TGCN        |  5.90  |  7.82  | 26.94% |
 | STGCN         |  3.49  |  4.81  | 15.78% |
-| DCRNN         |  3.92  |  5.21  | 18.07% |
+| DCRNN         |  2.81  |  4.17  | 11.01% |
 
