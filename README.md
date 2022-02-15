@@ -1,7 +1,7 @@
 # Traffic Forcasting
-Using Different GNN models for traffic forcasting
+Using Different GNN and fusion models for traffic forcasting
 
-## Data
+## Speed Data
 
 [Seoul Speed Data](https://github.com/yuyolshin/SeoulSpeedData)
 
@@ -13,7 +13,7 @@ The Urban core dataset consists of 304 sensors, with 8640 observations every 5 m
 
 REFERENCE: Shin, Y., & Yoon, Y. (2020). Incorporating dynamicity of transportation network with multi-weight traffic graph convolutional network for traffic forecasting. IEEE Transactions on Intelligent Transportation Systems.
 
-## Methods
+### Methods
 
 [Temporal Graph convolutional Network (TGCN)](https://github.com/mhmdrdwn/traffic/blob/main/speed/tgcn.ipynb)
 
@@ -24,7 +24,7 @@ REFERENCE: Shin, Y., & Yoon, Y. (2020). Incorporating dynamicity of transportati
 [Diffusion Convolutional Recurrent Neural Network (DCRNN)](https://github.com/mhmdrdwn/traffic/blob/main/speed/dcrnn.ipynb)
 
 
-## Results
+### Results
 
 | Model         | MAE    | RMSE   | MAPE   |
 | ------------- |:------:|:------:|:------:|
@@ -33,3 +33,5 @@ REFERENCE: Shin, Y., & Yoon, Y. (2020). Incorporating dynamicity of transportati
 | STGCN         |  3.49  |  4.81  | 15.78% |
 | DCRNN         |  2.81  |  4.17  | 11.01% |
 
+
+## Flow Data
