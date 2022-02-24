@@ -1,4 +1,4 @@
-# Traffic Forcasting (Only Demo)
+# Traffic Forcasting (Demo)
 Using Different GNN and fusion models for traffic forcasting
 
 ## Speed Data
@@ -34,4 +34,22 @@ REFERENCE: Shin, Y., & Yoon, Y. (2020). Incorporating dynamicity of transportati
 | DCRNN         |  2.81  |  4.17  | 11.01% |
 
 
-## Flow Data
+## Flow Data (Under Progress)
+Fusion of Weather and holidays information
+
+Here the task is to predict the flow of traffic. The data consists of weather, holidays and flow data. The flow data is a grid of 15x5 with flows (inflow and outflows). The number of time steps (time slots) in the data are 17520. Meteorology data consists of temperature, windspeed and weather. weather data is: {'Cloudy': 0, 'Cloudy / Windy': 1, 'Fair': 2......}. Holidays data include list of holidays. 
+
+![alt text]()
+
+### Methods
+
+[MLP](https://github.com/mhmdrdwn/traffic/blob/main/flow/baseline_mlp.ipynb)
+
+[LSTM](https://github.com/mhmdrdwn/traffic/blob/main/flow/baseline_lstm.ipynb)
+
+[ST-Resnet](https://github.com/mhmdrdwn/traffic/blob/main/flow/stresnet.ipynb)
+
+
+
+
+
