@@ -1,4 +1,4 @@
-# Traffic Forcasting
+# Traffic Forcasting (Only Demo)
 Using Different GNN and fusion models for traffic forcasting
 
 ## Speed Data
