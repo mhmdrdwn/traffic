@@ -57,5 +57,10 @@ Here the task is to predict the flow of traffic. The data consists of weather, h
 ### Results
 
 
+| Model         | MAE    | RMSE   | MAPE   |
+| ------------- |:------:|:------:|:------:|
+| MLP           |  11.68 |  20.93 | 37.93% |
+| ST-Resnet     |  11.91 |  21.55 | 32.32% |
+
 
 
