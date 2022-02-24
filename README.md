@@ -39,7 +39,7 @@ Fusion of Weather and holidays information
 
 Here the task is to predict the flow of traffic. The data consists of weather, holidays and flow data. The flow data is a grid of 15x5 with flows (inflow and outflows). The number of time steps (time slots) in the data are 17520. Meteorology data consists of temperature, windspeed and weather. weather data is: {'Cloudy': 0, 'Cloudy / Windy': 1, 'Fair': 2......}. Holidays data include list of holidays. 
 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/mhmdrdwn/traffic/main/plots/grid.png)
 
 ### Methods
 
