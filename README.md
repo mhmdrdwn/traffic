@@ -47,9 +47,7 @@ Here the task is to predict the flow of traffic. The data consists of weather, h
 
 ### Methods
 
-[MLP](https://github.com/mhmdrdwn/traffic/blob/main/flow/baseline_mlp.ipynb)
-
-[LSTM](https://github.com/mhmdrdwn/traffic/blob/main/flow/baseline-lstm.ipynb)
+[MLP Baseline](https://github.com/mhmdrdwn/traffic/blob/main/flow/baseline_mlp.ipynb)
 
 [Spatiotemporal-Resnet](https://github.com/mhmdrdwn/traffic/blob/main/flow/stresnet.ipynb)
 
@@ -59,7 +57,7 @@ Here the task is to predict the flow of traffic. The data consists of weather, h
 
 | Model         | MAE    | RMSE   | MAPE   |
 | ------------- |:------:|:------:|:------:|
-| MLP           |  11.68 |  20.93 | 37.93% |
+| MLP Baseline  |  11.68 |  20.93 | 37.93% |
 | ST-Resnet     |  11.91 |  21.55 | 32.32% |
 
 
