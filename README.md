@@ -35,6 +35,10 @@ REFERENCE: Shin, Y., & Yoon, Y. (2020). Incorporating dynamicity of transportati
 
 
 ## Flow Data (Under Progress)
+
+[NYCTaxi Traffic Flow Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+
+
 Fusion of Weather and holidays information
 
 Here the task is to predict the flow of traffic. The data consists of weather, holidays and flow data. The flow data is a grid of 15x5 with flows (inflow and outflows). The number of time steps (time slots) in the data are 17520. Meteorology data consists of temperature, windspeed and weather. weather data is: {'Cloudy': 0, 'Cloudy / Windy': 1, 'Fair': 2......}. Holidays data include list of holidays. 
@@ -47,8 +51,10 @@ Here the task is to predict the flow of traffic. The data consists of weather, h
 
 [LSTM](https://github.com/mhmdrdwn/traffic/blob/main/flow/baseline_lstm.ipynb)
 
-[ST-Resnet](https://github.com/mhmdrdwn/traffic/blob/main/flow/stresnet.ipynb)
+[Spatiotemporal-Resnet](https://github.com/mhmdrdwn/traffic/blob/main/flow/stresnet.ipynb)
 
+
+### Results
 
 
 
