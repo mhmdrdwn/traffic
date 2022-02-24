@@ -49,7 +49,7 @@ Here the task is to predict the flow of traffic. The data consists of weather, h
 
 [MLP](https://github.com/mhmdrdwn/traffic/blob/main/flow/baseline_mlp.ipynb)
 
-[LSTM](https://github.com/mhmdrdwn/traffic/blob/main/flow/baseline_lstm.ipynb)
+[LSTM](https://github.com/mhmdrdwn/traffic/blob/main/flow/baseline-lstm.ipynb)
 
 [Spatiotemporal-Resnet](https://github.com/mhmdrdwn/traffic/blob/main/flow/stresnet.ipynb)
 
