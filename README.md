@@ -1,5 +1,5 @@
 # Traffic Forcasting (Simple Demo)
-Using Different GNN and fusion models for traffic forcasting. The forcasting of traffic is the predictions of traffic speed, traffic flow, and traffic density. 
+Using Different GNN and fusion models for traffic forcasting. The forcasting of traffic is the predictions of traffic speed, flow, density and trajectory. 
 
 ## Speed Data
 
