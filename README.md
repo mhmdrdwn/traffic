@@ -1,4 +1,4 @@
-# Traffic Forcasting (Demo)
+# Traffic Forcasting (Simple Demo)
 Using Different GNN and fusion models for traffic forcasting
 
 ## Speed Data
@@ -36,7 +36,7 @@ REFERENCE: Shin, Y., & Yoon, Y. (2020). Incorporating dynamicity of transportati
 
 ## Flow Data (Under Progress)
 
-[NYCTaxi Traffic Flow Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+[NYCTaxi Traffic Flow Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page): Using small subset of the data
 
 
 Fusion of Weather and holidays information
