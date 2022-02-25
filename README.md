@@ -44,7 +44,7 @@ Fusion of Weather and holidays information. Here the task is to predict the flow
 
 ### Methods
 
-[MLP Baseline](https://github.com/mhmdrdwn/traffic/blob/main/flow/baseline_mlp.ipynb)
+[MLP Baseline](https://github.com/mhmdrdwn/traffic/blob/main/flow/baseline-mlp.ipynb)
 
 [Spatiotemporal-Resnet](https://github.com/mhmdrdwn/traffic/blob/main/flow/stresnet.ipynb)
 
@@ -52,9 +52,9 @@ Fusion of Weather and holidays information. Here the task is to predict the flow
 ### Results
 
 
-| Model         | MAE    | RMSE   | MAPE   |
+| Model         | MAE    | RMSE   | sMAPE  |
 | ------------- |:------:|:------:|:------:|
-| MLP Baseline  |  11.68 |  20.93 | 37.93% |
+| MLP Baseline  |  13.50 |  25.09 | 44.94% |
 | ST-Resnet     |  11.91 |  21.55 | 32.32% |
 
 
