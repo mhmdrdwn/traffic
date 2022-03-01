@@ -52,10 +52,10 @@ Fusion of Weather and holidays information. Here the task is to predict the flow
 ### Results
 
 
-| Model         | MAE    | RMSE   | 
-| ------------- |:------:|:------:|
-| MLP Baseline  |  13.50 |  25.09 | 
-| ST-Resnet     |  11.78 |  21.21 |
+| Model         | MAE    | RMSE   | sMAPE  |
+| ------------- |:------:|:------:|:------:|
+| MLP Baseline  |  13.50 |  25.09 | 44.94% |
+| ST-Resnet     |  11.78 |  21.21 | 44.91% |
 
 
 
