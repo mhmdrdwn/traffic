@@ -48,14 +48,16 @@ Fusion of Weather and holidays information. Here the task is to predict the flow
 
 [Spatiotemporal-Resnet](https://github.com/mhmdrdwn/traffic/blob/main/flow/stresnet.ipynb)
 
+[Resnet + feature attention](https://github.com/mhmdrdwn/traffic/blob/main/flow/attresnet.ipynb)
+
+
 
 ### Results
 
 
-| Model         | MAE    | RMSE   | sMAPE  |
-| ------------- |:------:|:------:|:------:|
-| MLP Baseline  |  13.50 |  25.09 | 44.94% |
-| ST-Resnet     |  11.78 |  21.21 | 44.91% |
-
-
+| Model            | MAE    | RMSE   | sMAPE  |
+| ---------------- |:------:|:------:|:------:|
+| MLP Baseline     |  13.50 | 25.09  | 44.94% |
+| ST-Resnet        |  11.78 | 21.21  | 44.91% |
+| Resnet+Attention |  11.17 | 20.35  | 42.79% |
 
