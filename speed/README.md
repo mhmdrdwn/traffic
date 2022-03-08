@@ -4,7 +4,7 @@
 
 ## Summary
 
-LSTM is one solution to the core vanishing and exploding gradient challenge in training RNN. LSTM adds/removes information from cell state (memory) using the gates as shown in the following figure. The gates are forget gate (<img src="https://latex.codecogs.com/svg.image?F_t" title="F_t" />), input gate (<img src="https://latex.codecogs.com/svg.image?I_t" title="I_t" />) and output gate (<img src="https://latex.codecogs.com/svg.image?O_t" title="O_t" />) given as in the following equations. 
+LSTM is one solution to the vanishing and exploding gradient challenge in training RNN. LSTM adds/removes information from cell state (memory) using the gates as shown in the following figure. The gates are forget gate (<img src="https://latex.codecogs.com/svg.image?F_t" title="F_t" />), input gate (<img src="https://latex.codecogs.com/svg.image?I_t" title="I_t" />) and output gate (<img src="https://latex.codecogs.com/svg.image?O_t" title="O_t" />) given as in the following equations. 
 
 <img src="https://latex.codecogs.com/svg.image?\begin{aligned}\mathbf{F}_t&space;&=&space;\sigma(\mathbf{X}_t&space;\mathbf{W}_{xf}&space;&plus;&space;\mathbf{H}_{t-1}&space;\mathbf{W}_{hf}&space;&plus;&space;\mathbf{b}_f)\\\mathbf{I}_t&space;&=&space;\sigma(\mathbf{X}_t&space;\mathbf{W}_{xi}&space;&plus;&space;\mathbf{H}_{t-1}&space;\mathbf{W}_{hi}&space;&plus;&space;\mathbf{b}_i)\\\mathbf{O}_t&space;&=&space;\sigma(\mathbf{X}_t&space;\mathbf{W}_{xo}&space;&plus;&space;\mathbf{H}_{t-1}&space;\mathbf{W}_{ho}&space;&plus;&space;\mathbf{b}_o)\end{aligned}" title="\begin{aligned}\mathbf{F}_t &= \sigma(\mathbf{X}_t \mathbf{W}_{xf} + \mathbf{H}_{t-1} \mathbf{W}_{hf} + \mathbf{b}_f)\\\mathbf{I}_t &= \sigma(\mathbf{X}_t \mathbf{W}_{xi} + \mathbf{H}_{t-1} \mathbf{W}_{hi} + \mathbf{b}_i)\\\mathbf{O}_t &= \sigma(\mathbf{X}_t \mathbf{W}_{xo} + \mathbf{H}_{t-1} \mathbf{W}_{ho} + \mathbf{b}_o)\end{aligned}" />
 
@@ -29,7 +29,7 @@ Where <img src="https://latex.codecogs.com/svg.image?\mathbf{W}_{xf},&space;\mat
 
 
     * Question: Why Tanh is used in candidate generation? Why not ReLU or sigmoid?
-        ReLU is not a good fit for RNNs in general as ReLU outputs very large values. This means that it leads to exploding gradient. Relative to ReLU, Tanh can bound the the outputs between (-1: 1). In the same time, Tanh performs better than Sigmoid as it saturates slower than sigmoid (saturation = derivative reaches zero). while the average of sigmoid and Tanh outputs is 0.5 and 0, respectively. Convergence is usually faster when input mean values is close to zero which is the case in Tanh which can make the convergence of the next layer faster (same reason we normalize the data before training). This means that Tanh found to converge faster in practice. To deeper undertanding of that idea of convergence, read "Lecun, Yann & Bottou, Leon & Orr, Genevieve & Müller, Klaus-Robert. (2000). Efficient BackProp". 
+        ReLU is not a good fit for RNNs in general as ReLU outputs very large values. This means that it leads to exploding gradient. Relative to ReLU, Tanh can bound the the outputs between (-1: 1). In the same time, Tanh performs better than Sigmoid as it saturates slower than sigmoid (saturation = derivative reaches zero). while the average of sigmoid and Tanh outputs is 0.5 and 0, respectively. Convergence is usually faster when input mean values is close to zero which is the case in Tanh which can make the convergence of the next layer faster. This means that Tanh found to converge faster in practice. To deeper undertanding of that idea of convergence, read "Lecun, Yann & Bottou, Leon & Orr, Genevieve & Müller, Klaus-Robert. (2000). Efficient BackProp". 
 
 
 *  The output gate (<img src="https://latex.codecogs.com/svg.image?O_t" title="O_t" />) is used to compute the hidden state (<img src="https://latex.codecogs.com/svg.image?H_t" title="H_t" />). The hidden state will be based on the cell state (<img src="https://latex.codecogs.com/svg.image?C_{t}" title="C_{t}" />) and the output gate sigmoid (0:1). So, when the sigmoid is 1, pass all memory information from the cell state through the hidden state. In this case, simply, hidden state could be seen as filtered version of the cell state as explained in the [article](https://colah.github.io/posts/2015-08-Understanding-LSTMs/).  
@@ -37,6 +37,6 @@ Where <img src="https://latex.codecogs.com/svg.image?\mathbf{W}_{xf},&space;\mat
     <img src="https://latex.codecogs.com/svg.image?\mathbf{H}_t&space;=&space;\mathbf{O}_t&space;\odot&space;\tanh(\mathbf{C}_t)" title="\mathbf{H}_t = \mathbf{O}_t \odot \tanh(\mathbf{C}_t)" />
 
 
-![lstm](https://github.com/mhmdrdwn/papers-summary/blob/main/_/lstm.png?raw=true)
+![lstm](https://github.com/mhmdrdwn/traffic/blob/main/plots/lstm.png?raw=true)
     
     Figure: CC by Zhang, Aston and Lipton, Zachary C. and Li, Mu and Smola, Alexander J., Dive into Deep Learning, arXiv preprint arXiv:2106,11342, 2021.
